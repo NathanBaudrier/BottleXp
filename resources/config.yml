@@ -1,0 +1,141 @@
+---
+
+#BottleXp's Config :
+
+
+
+#- Permissions -
+
+BottleXpCommands: "*"
+#(*) That mean everyone can use the BottleXp Commands.
+#You can change this with the name of you want.
+#Example : BottleXpCommands: "bottlexp.permission".
+
+XpCommands: "op"
+#(op) That mean only operators cas use Xp Commands.
+#Choose who can use the Xp Commands like /xp add 5 (player).
+#Example : XpCommands: "staff.perm"
+
+
+
+#- Commands Messages -
+#Use {level-player} for take the Experience(s) Level(s) of the player.
+#Use {player-name} for take the name of the player.
+
+BottleXpDescription: "Allows you to convert your level into a bottle of experience."
+#Set the description of BottleXpCommands.
+
+XpDescription: "Allows manage the level(s)"
+#Set the description (only one) of XpCommands.
+
+NoLevel: "§cYou have no level !"
+#Set the message when a player execute the BottleXpCommands and have no level.
+
+NotEnoughLevel: "§cYou don't have enough level ! You are missing §4{level-missing} Experience(s) Level(s)."
+#Set the message when a player execute the BottleXpCommands and is missing some Experience(s) Level(s).
+#Use {level-missing} for take the missing Experience(s) Level(s).
+
+LevelConverted: "§aYou have successfully converted §2{level-converted} Experience(s) Level(s) §ainto an experience bottle !"
+#Set the message when a player convert his Experience(s) Level(s) into a BottleXp.
+#Use {level-converted} for take Experience(s) Level(s)'s player wich was converted in a BottleXp.
+
+MustNumber: "§cYou must enter a number !"
+#Set the message when a player execute the BottleXpCommands and he don't enter a number or a valid number.
+
+NoPermissions: "§cYou don't have the permissions for use this command !"
+#Set the message when a player execute a Command from the plugin and he don't have the permissions for use it.
+
+NoOpPermissions: "§cYou don't have the operator permissions for use this command !"
+#Set the message when a player execute a Command from the plugin and he don't have the operator permissions for use it.
+
+GameOnly: "You can use this command in game only !"
+#Set the message when a player use a Command from the console.
+
+InventoryFull: "§cYour inventory is full !"
+#Set the message when player's inventory is full.
+
+PlayerNotFound: "§cThis player is offline or does not exist !"
+#Set the message when a player was not found.
+
+LoreMessage: "Right click for open the BottleXp UI ({level} xp)"
+#Set the message of the lore of the BottleXp.
+#Use {level} for take the Experience(s) Level(s) wish is inside the BottleXp.
+
+NumberHigher: "§cThe number indicated muste be less than or equal to your experience level !"
+#Set the message when a player want to remove a number higher than his Experience(s) Level(s).
+
+Usage: "§l§cUsage : §r§c{usage-message}"
+#Set the usage message for each Plugin's Commands.
+#Use {usage-message} for the usage message of the Command. For example : /experience (int: xp)
+
+LevelRemovedToHimself: "§aYou have successfully removed §2{level-remove} Experience(s) Level(s) §ato you !"
+#Set the message when a player remove some Experience(s) Level(s) to himself.
+#Use {level-remove} for take the Experience(s) Level(s) wich was removed to the player.
+
+LevelRemoved: "§aYou have successfully removed §2{level-remove} Experience(s) Level(s) §ato §2{player-name}"
+#Set the message when a player remove some Experience(s) Level(s) to another player.
+#Use {level-remove} for take the Experience(s) Level(s) wich was removed to the player.
+#Use {player-name} for take the name of the player.
+
+LevelAddedToHimself: "§aYou have successfully added §2{level-add} Experience(s) Level(s) §ato you !"
+#Set the message when a player add some Experience(s) Level(s) to himself.
+#Use {level-add} for take the Experience(s) Level(s) wich was added to the player.
+
+LevelAdded: "§aYou have successfully added §2{level-add} Experience(s) Level(s) §ato §2{player-name}"
+#Set the message when a player remove some Experience(s) Level(s) to another player.
+#Use {level-add} for take the Experience(s) Level(s) wich was added to the player.
+#Use {player-name} for take the name of the player.
+
+LevelDefinedToHimself: "§aYou have successfully defined your experience level out of §2{level-set}"
+#Set the message when a player set his Experience(s) Level(s).
+#Use {level-set} for take the Experience(s) Level(s) wich was defined to the player.
+
+LevelDefined: "§aYou have successfully defined the §2{player-name}§a's Level Experience out of §2{level-set}"
+#Set the message when a player set Experience(s) Level(s) to another player.
+#Use {level-set} for take the Experience(s) Level(s) wich was defined to the player.
+#Use {player-name} for take the name of the player.
+
+LevelGetedToHimself: "§aYour Experience Level : §2{level-get}"
+#Set the message when a player get his Experience(s) Level(s).
+#Use {level-get} for take the Experience(s) Level(s) of the player.
+
+LevelGeted: "§aThe §2{player-name}§a's Experience Level : §2{level-get}"
+#Set the message when a player get Experience(s) Level(s) of another player.
+#Use {level-get} for take the Experience(s) Level(s) of the player.
+#Use {player-name} for take the name of the player.
+
+
+
+#- Ui Messages -
+
+Title: "§e- §9BottleXpUi §e-"
+#Set the title of the BottleXp Ui.
+
+Description: "§e- §9Choose how much experience level you want to take §9"
+#Set the description of the BottleXp Ui.
+
+Button: "§e- §9Take all (§6{level}§9) ?"
+#Set the content juste behind the button in the BottleXpUi.
+#Use {level} for take the Experience(s) Level(s) wish is inside the BottleXp.
+
+
+
+#- Other -
+
+BottleXpName: "§e- §6{level} §9Experience(s) Level(s) §e-"
+#Set the name of the BottleXp when you converted your Experience(s) Level(s) into a BottleXp.
+#Use {level} for take the Experience(s) Level(s) wish is inside the BottleXp.
+
+AllLevelExtracted: "§aYou have successfully extracted all §2{level-extracted} Experience(s) Level(s) §afrom your BottleXp ! You have now §2{level-player} Experience(s) Level(s)"
+#Set the message when a player extract all Experience(s) Level(s) of a BottleXp.
+#Use {level-extracted} for take the Experience(s) Level(s) extracted from a BottleXp by a player.
+#Use {level-player} for take the Experience(s) Level(s) of the player.
+
+LevelExtracted: "§aYou have successfully extracted all §2{level-extracted} Experience(s) Level(s) §afrom your BottleXp ! You have now §2{level-player} §aand the BottleXp has now §2{level} Experience(s) Level(s)"
+#Set the message when a player extract some Experience(s) Level(s) of a BottleXp.
+#Use {level-extracted} for take the Experience(s) Level(s) extracted from a BottleXp by a player.
+#Use {level-player} for take the Experience(s) Level(s) of the player.
+#Use {level} for take the Experience(s) Level(s) wish is inside the BottleXp.
+
+
+...

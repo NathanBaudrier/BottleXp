@@ -1,0 +1,8 @@
+name: BottleXp
+main: Nattt\BottleXp\BottleXp
+description: "BottleXp Plugin for Pocketmine-Mp Servers"
+website: "https://github.com/NathanBaudrier/BottleXp"
+api: [3.0.0]
+
+author: Nattt
+version: 1.0.0
