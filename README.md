@@ -6,3 +6,5 @@
 /experience get (string: player)
 
 /bottlexp (int: xp)
+
+#For config the plugin => config.yml in plugin_data
