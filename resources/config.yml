@@ -19,8 +19,6 @@ XpCommands: "op"
 
 
 #- Commands Messages -
-#Use {level-player} for take the Experience(s) Level(s) of the player.
-#Use {player-name} for take the name of the player.
 
 BottleXpDescription: "Allows you to convert your level into a bottle of experience."
 #Set the description of BottleXpCommands.
@@ -137,5 +135,8 @@ LevelExtracted: "§aYou have successfully extracted all §2{level-extracted} Exp
 #Use {level-player} for take the Experience(s) Level(s) of the player.
 #Use {level} for take the Experience(s) Level(s) wish is inside the BottleXp.
 
+LoreMessage: "Right click for open the BottleXp UI ({level} xp)"
+#Set the message of the lore of the BottleXp.
+#Use {level} for take the Experience(s) Level(s) wish is inside the BottleXp.
 
 ...
